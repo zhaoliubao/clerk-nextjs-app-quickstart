@@ -9,7 +9,12 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body>{children}</body>
+        <body>
+        {children}
+        <div>
+            将前端页面包装到这个面
+        </div>
+        </body>
       </html>
     </ClerkProvider>
   )
